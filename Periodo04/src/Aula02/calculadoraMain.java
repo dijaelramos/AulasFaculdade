@@ -1,3 +1,5 @@
+package Aula02;
+
 public class calculadoraMain {
     public static void main(String[] args) {
      

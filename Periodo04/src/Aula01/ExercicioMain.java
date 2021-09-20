@@ -1,3 +1,5 @@
+package Aula01;
+
 public class ExercicioMain {
     public static void main(String[] args) {
 

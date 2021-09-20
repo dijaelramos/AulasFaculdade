@@ -1,3 +1,5 @@
+package Aula01;
+
 import java.util.Random;
 
 public class Personagem {

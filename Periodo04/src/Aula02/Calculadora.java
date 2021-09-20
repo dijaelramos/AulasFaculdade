@@ -1,3 +1,5 @@
+package Aula02;
+
 public class Calculadora {
     int num1;
     int num2;
