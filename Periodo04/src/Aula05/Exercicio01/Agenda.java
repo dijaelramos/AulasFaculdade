@@ -1,60 +1,40 @@
 package Aula05.Exercicio01;
 
+import java.util.ArrayList;
+
 public class Agenda {
-	private String nome;
-	private int idade;
-	private float altura;
-	
-	public Agenda(String nome, int idade, float altura) {
-		super();
-		this.nome = nome;
-		this.idade = idade;
-		this.altura = altura;
-	}
+	private ArrayList<Pessoa> pessoas;
 
-	public void armazenaPessoa(String nome, int idade, float altura ) {
-		System.out.println("Nome: " + getNome());
-		System.out.println("Idade: " + getIdade());
-		System.out.println("Altura: " + getAltura());
-	}
-	
-	public void removePessoa() {
-		
-	}
-	public int buscaPessoa() {
-		return idade;
-		
-	}
-	public void imprimeAgenda() {
-		
-	}
-	public void imprimePessoa() {
-		
-	}
+    public Agenda() {
+        this.pessoas = new ArrayList<Pessoa>();
+    }
 
-	public String getNome() {
-		return nome;
-	}
+    public void armazenarPessoa(String nome, int idade, double altura){
+        this.pessoas.add(new Pessoa(nome, idade, altura));
+    }
 
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
+    public void removerPessoa(String nome){
+        this.pessoas.removeIf(p -> p.getNome().equals(nome));
+    }
 
-	public int getIdade() {
-		return idade;
-	}
+    public int buscarPessoa(String nome){
+        Pessoa pessoaProcurada = null;
+        for (Pessoa p : this.pessoas) {
+            if (p.getNome().equals(nome)){
+                pessoaProcurada = p;
+            }
+        }
 
-	public void setIdade(int idade) {
-		this.idade = idade;
-	}
+        return this.pessoas.indexOf(pessoaProcurada);
+    }
 
-	public float getAltura() {
-		return altura;
-	}
+    public void imprimirAgenda(){
+        this.pessoas.forEach(pessoa -> System.out.println(pessoa));
+    }
 
-	public void setAltura(float altura) {
-		this.altura = altura;
-	}
+    public void imprimiPessoa(int index){
+        System.out.println(this.pessoas.get(index + 1));
+    }
 	
 	
 }

@@ -10,9 +10,9 @@ public class Sala {
 		this.listaDeAlunos = new ArrayList<>();
 	}
 
-	void insereAluno(Aluno novoAluno) {
-		novoAluno.calculaNotas(); 
-		listaDeAlunos.add(novoAluno);
+	void insereAluno(Aluno novo) {
+		novo.calculaNotas(); 
+		listaDeAlunos.add(novo);
 	}
 	
 	void listarAlunos() {
