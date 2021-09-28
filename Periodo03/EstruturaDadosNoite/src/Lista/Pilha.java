@@ -9,7 +9,7 @@ public class Pilha {
 		this.topo = null;
 		this.base = null;
 	}
-
+	//Acrescentar No
 	public void push(Object elemento) {
 		No novo = new No(elemento, null);
 		if (this.topo == null) {
@@ -20,7 +20,7 @@ public class Pilha {
 			this.topo = novo;
 		}
 	}
-
+	//Excluir No
 	public boolean pop() {
 		if (this.isEmpty()) {
 			System.out.println("Pilha Vazia!");
@@ -36,7 +36,7 @@ public class Pilha {
 			return true;
 		}
 	}
-
+	//Verificar se esta vazia
 	public boolean isEmpty() {
 		if (this.topo == null) {
 			return true;
