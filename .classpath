@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Periodo03/Aula02-ExercicioBanco/src"/>
+	<classpathentry kind="src" path="Periodo03/EstruturaDadosNoite/src"/>
+	<classpathentry kind="src" path="Periodo03/ProjetoJavaCursoProfissionalisante/src"/>
+	<classpathentry kind="src" path="Periodo03/TesteBancoDeDados/src"/>
+	<classpathentry kind="src" path="Periodo03/TesteBancoDeDados/TesteBancoDeDados/src"/>
+	<classpathentry kind="src" path="Periodo04/src"/>
+	<classpathentry kind="output" path="Periodo03/Aula02-ExercicioBanco/bin"/>
+</classpath>
