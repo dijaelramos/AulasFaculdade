@@ -1,9 +1,6 @@
 package Aula05.Exercicio01;
 
-import java.util.ArrayList;
 import java.util.Scanner;
-
-import Projeto_Prova01.Aluno;
 
 public class Main {
 

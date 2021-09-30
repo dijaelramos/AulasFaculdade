@@ -92,8 +92,6 @@ public class Testes {
 			double nota2 = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite a segunda nota do aluno", "SITUAÇÃO DO ALUNO",
 					JOptionPane.QUESTION_MESSAGE));
 			
-			
-			
 			notasAluno.add(nota1);
 			notasAluno.add(nota2);
 			double media = (nota1 + nota2)/2;

@@ -33,6 +33,8 @@ public class Sala extends Aluno{
 		}
 		return false;
 	}
+
+	
 	static public boolean pesquisarAluno(String matricula) {
 		for(Aluno a : novoAluno) {
 			if(a.getMatricula().equalsIgnoreCase(matricula)) {
@@ -41,8 +43,6 @@ public class Sala extends Aluno{
 		}
 		return false;
 	}
-	
-
 	
 	
 
