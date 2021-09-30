@@ -5,7 +5,6 @@ public class Aluno {
 	protected   String nome;
 	protected  String cpf;
 	protected  int idade;
-	protected static  String situacao = "Reprovado";
 	
 	public Aluno() {
 		super();
@@ -50,14 +49,6 @@ public class Aluno {
 
 	public void setIdade(int idade) {
 		this.idade = idade;
-	}
-
-	public String getSituacao() {
-		return situacao;
-	}
-
-	public void setSituacao(String situacao) {
-		this.situacao = situacao;
 	}
 
 	@Override

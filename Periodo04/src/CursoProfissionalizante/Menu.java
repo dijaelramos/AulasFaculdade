@@ -27,7 +27,6 @@ public class Menu extends Aluno {
 				break;
 			case 2:
 				Testes.remover();
-				Sala.removerAluno("10");
 				break;
 			case 3:
 				Testes.retornarAluno();
