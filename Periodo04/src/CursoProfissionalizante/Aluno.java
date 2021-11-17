@@ -1,6 +1,6 @@
 package CursoProfissionalizante;
 
-public class Aluno {
+public class Aluno implements Comparable<Sala>{
 	protected  String matricula;
 	protected   String nome;
 	protected  String cpf;
@@ -8,7 +8,6 @@ public class Aluno {
 	
 	public Aluno() {
 		super();
-	
 	}
 
 	public Aluno( String matricula, String nome, String cpf, int idade) {
@@ -58,7 +57,14 @@ public class Aluno {
 				"\nCPF:" + cpf +
 				"\nIdade:" + idade + ".\n";
 	}
+	public int compareTo(Sala sala) {
+		return getNome().compareToIgnoreCase(sala.getNome());
+	}
 }
+//@Override 
+//public int compareTo(Pessoa o) { 
+//	return getNome().compareToIgnoreCase(o.getNome()); 
+//	}
 
 
 

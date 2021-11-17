@@ -1,6 +1,10 @@
 package CursoProfissionalizante;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+
 import javax.swing.JOptionPane;
 
 public class Testes {
@@ -69,6 +73,8 @@ public class Testes {
 			JOptionPane.showMessageDialog(null, "Lista vazia! \nNenhum aluno matriculado.", "Status",
 					JOptionPane.INFORMATION_MESSAGE);
 		} else {
+			
+			//Collections.sort(Sala.novoAluno.);
 			System.out.println("------------ LISTA DOS ALUNOS MATRICULADOS -----------------------");
 			System.out.println(Sala.novoAluno);
 			System.out.println("--------------------------- FIM DA LISTA --------------------------");
@@ -108,4 +114,10 @@ public class Testes {
 			}
 		}
 	}
+
+//	private String getNome() {
+//		// TODO Auto-generated method stub
+//		return null;
+//	}
+
 }

@@ -2,7 +2,7 @@ package CursoProfissionalizante;
 
 import java.util.ArrayList;
 
-public class Sala extends Aluno{
+public class Sala extends Aluno {
 
 	static int totAlunos = 20;
 	static public ArrayList<Aluno> novoAluno = new ArrayList<Aluno>();
@@ -42,12 +42,7 @@ public class Sala extends Aluno{
 			}
 		}
 		return false;
-	}
-	
-	
-
-	
-	
+	}	
 }
 
 
